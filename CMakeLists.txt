@@ -3,4 +3,6 @@ project(ostep C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ostep first_examples/main.c)
+add_executable(ostep into/cpu.c
+        into/common.c
+        into/common.h)
